@@ -61,7 +61,7 @@ a {
   margin-left: 60px;
 }
 
-img {
+#about img {
   align-self: center;
   flex: 0 0 auto;
   float: left;
@@ -74,7 +74,7 @@ img {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #chart {
@@ -88,7 +88,7 @@ p {
 }
 
 #chart line {
-  stroke: #092856;
+  stroke: #00004d;
 }
 
 #chart line.vertical-marker.now {
@@ -105,11 +105,11 @@ circle.blue-dot {
 }
 
 #chart .interval {
-  fill: #092856;
+  fill: #00004d;
 }
 
 #chart .dot {
-  fill: #092856;
+  fill: #00004d;
 }
 /* Override d3tip */
 
@@ -214,7 +214,7 @@ input, textarea {
   height: 45px;
   font-size: 18px;
   border-bottom: 1px solid white;
-  background-color: #092856;
+  background-color: #00004d;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -238,7 +238,7 @@ button {
   display:block;
   background-color: white;
   font-family: 'EB Garamond', serif;
-  color: #092856;
+  color: #00004d;
   font-size: 18px;
   padding: 5px 20px 5px 20px;
 }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Matt Brems</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="timeline-chart.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="sidenav">
+    <a href="https://twitter.com/matthewbrems"><i class="fab fa-twitter fa-2x"></i></a>
+    <a href="https://www.linkedin.com/in/matthewbrems"><i class="fab fa-linkedin fa-2x"></i></a>
+    <a href="https://github.com/matthewbrems"><i class="fab fa-github fa-2x"></i></a>
+  </div>  
+  <div class="body">
+    <section class="header">
+      <h1>Matt Brems</h1>
+      <h2>
+        <a href="#about">About Me</a>
+        &middot;
+        <a href="#contact">Contact Me</a>
+        &middot;
+        <a href="#research">Research</a>
+        &middot;
+        <a href="#resume">Résumé</a>
+      </h2>      
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about">
+        <img src="./img/profile.png" alt="picture of Matt Brems">
+        <div class="bio">
+          <p>I’m Matt!</p>
+          <p>Currently, I’m a data science instructor with General Assembly. I’m afforded the incredible opportunity and responsibility to train data scientists.</p>  
+        </div>
+      </div>
+    </section>
+    <section id="research">
+      <h2>Research</h2>
+    </section>
+    <section id="resume">
+      <h2>Résumé</h2>
+      <div id="chart"></div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form method="POST" action="https://formspree.io/matthew.w.brems@gmail.com">
+        <input type="email" name="email" placeholder="Your email">
+        <textarea name="message" placeholder="Your message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="surface3d.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js"></script>
+  <script src="timeline-chart.js"></script>
+  <script src="events.js"></script>
+</body>
+</html>

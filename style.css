@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+/*@import url('https://fonts.googleapis.com/css?family=Playfair+Display');*/
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
 body {
   height: 100%;
   width: 100%;
-  background-color: #092856;
+  background-color: #00004d;
   color: white;
-  font-family: 'Playfair Display', serif;
+  font-family: 'EB Garamond', serif;
 }
 
 .body {
@@ -216,7 +217,7 @@ input, textarea {
   border-right: none;
   outline: none;
   padding-left: 10px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'EB Garamond', serif;
   color: white;
   display: block;
   margin: 0 auto;
@@ -233,7 +234,7 @@ button {
   margin:auto;
   display:block;
   background-color: white;
-  font-family: 'Playfair Display', serif;
+  font-family: 'EB Garamond', serif;
   color: #092856;
   font-size: 18px;
   padding: 5px 20px 5px 20px;

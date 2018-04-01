@@ -202,11 +202,6 @@ a path {
   padding: 0px 10px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
 input, textarea {
   height: 45px;
   font-size: 18px;
@@ -246,4 +241,68 @@ textarea {
 
 ::placeholder {
   color: white;
+}
+
+.mobile-links {
+  display: none;
+  text-align: center;
+}
+
+.mobile-links a {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  input, textarea {
+    width: 75%;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+
+  .bio {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .mobile-links {
+    display: block;
+  }
+
+  .sidenav {
+    display: none;
+  }
+
+  .about {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  img {
+    width: 200px;
+    margin-left: 0px;
+  }
+
+  .body {
+    margin: 20px 20px 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #chart {
+    display: none;
+  }
+
+  .header > svg {
+    display: none;
+  }
+
+  #about {
+    margin-top: 100px;
+  }
 }

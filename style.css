@@ -74,7 +74,13 @@ a {
 }
 
 p {
-  font-size: 25px;
+  font-size: 20px;
+  margin-right: 60px;
+}
+
+li {
+  font-size: 17px;
+  margin-right: 60px;
 }
 
 #chart {
@@ -131,8 +137,7 @@ circle.blue-dot {
   font-size: 10px;
   width: 100%;
   line-height: 1;
-  color: #
-  184c99;
+  color: #184c99;
   position: absolute;
   pointer-events: none;
 }
@@ -192,6 +197,7 @@ a path {
   font-size: 25px;
   color: #818181;
   display: block;
+  padding-bottom: 15px;
 }
 
 .sidenav a {
@@ -200,6 +206,7 @@ a path {
   font-size: 25px;
   color: #2196F3;
   display: block;
+  padding-bottom: 15px;
 }
 
 .sidenav a:hover {

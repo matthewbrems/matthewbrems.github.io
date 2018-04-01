@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #092856;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+.body {
+  margin: 50px 50px 50px 50px;
+  border: 2px solid white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 100px;
+}
+
+svg path {
+  stroke: #000;
+  stroke-width: 1px;
+  stroke: rgba(0,0,0,0.2);
+}
+
+.header > svg {
+  width: 700px;
+  height: 700px;
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+  margin-top: -50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 60px;
+}
+
+img {
+  align-self: center;
+  flex: 0 0 auto;
+  float: left;
+  width: 400px;
+}
+
+.bio {
+  margin-left: 50px;
+  margin-right: 60px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#chart {
+  width: 90%;
+  height: 150px;
+  background: white;
+  opacity: 0.9;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#chart line {
+  stroke: #092856;
+}
+
+#chart line.vertical-marker.now {
+  stroke: #c00;
+}
+
+rect.interval.blue-interval {
+  fill: #184c99;
+  stroke: #184c99;
+}
+
+circle.blue-dot {
+  fill: #184c99;
+}
+
+#chart .interval {
+  fill: #092856;
+}
+
+#chart .dot {
+  fill: #092856;
+}
+/* Override d3tip */
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: #184c99;
+  opacity: 0.5;
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: #
+  184c99;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Northward tooltips */
+.d3-tip.n:after {
+  content: "\25BC";
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  text-align: center;
+}
+
+/* Eastward tooltips */
+.d3-tip.e:after {
+  content: "\25C0";
+  margin: -4px 0 0 0;
+  top: 50%;
+  left: -8px;
+}
+
+/* Southward tooltips */
+.d3-tip.s:after {
+  content: "\25B2";
+  margin: 0 0 1px 0;
+  top: -8px;
+  left: 0;
+  text-align: center;
+}
+
+/* Westward tooltips */
+.d3-tip.w:after {
+  content: "\25B6";
+  margin: -4px 0 0 -1px;
+  top: 50%;
+  left: 100%;
+}
+
+/* The sidebar menu */
+.sidenav {
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 35%;
+  right: -20px;
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+a path {
+  fill: white;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.body {
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+input, textarea {
+  height: 45px;
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  background-color: #092856;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding-left: 10px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+form {
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+button {
+  margin:auto;
+  display:block;
+  background-color: white;
+  font-family: 'Playfair Display', serif;
+  color: #092856;
+  font-size: 18px;
+  padding: 5px 20px 5px 20px;
+}
+
+textarea {
+  height: 100px;
+}
+
+::placeholder {
+  color: white;
+}

@@ -89,7 +89,7 @@ const data = [{
         at: new Date([2015, 3, 30])
         },
         {
-        title: 'Title: "Data-Driven Insights: How Data is Reshaping Your Industry" <br> Event: Data-Driven Insights: How Data is Reshaping Your Industry Conference, The George Washington University <br> Role: Co-presenter',
+        title: 'Title: "Not “Politics as Usual” - How Data Science Revolutionizes The World of Politics" <br> Event: Data-Driven Insights: How Data is Reshaping Your Industry Conference, The George Washington University <br> Role: Co-presenter',
         type: TimelineChart.TYPE.POINT,
         at: new Date([2015, 12, 15])
         },
@@ -124,12 +124,17 @@ const data = [{
         at: new Date([2018, 3, 20])
         },
         {
+        title: 'Title: "Big Data Q & A" <br> Event: Franklin College LA 112 Course <br> Role: Sole Presenter',
+        type: TimelineChart.TYPE.POINT,
+        at: new Date([2018, 5, 2])
+        },
+        {
         title: 'Title: "Help! I have missing data. How do I fix it (the right way)?" <br> Event: Open Data Science Conference East, Boston, MA <br> Role: Sole Presenter',
         type: TimelineChart.TYPE.POINT,
         at: new Date([2018, 5, 2])
         },
         {
-        title: 'Title: "I have missing data.... how do I handle it (the right way)?" <br> Event: JupyterCon 2018, New York City, NY <br> Role: Sole Presenter',
+        title: 'Title: "Advanced Data Science, Part 2: I have missing data.... how do I handle it (the right way)?" Handle missing data in 5 ways in Jupyter notebooks." <br> Event: JupyterCon 2018, New York City, NY <br> Role: Sole Presenter',
         type: TimelineChart.TYPE.POINT,
         at: new Date([2018, 8, 23])
         }]

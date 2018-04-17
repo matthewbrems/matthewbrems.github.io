@@ -126,7 +126,7 @@ const data = [{
         {
         title: 'Title: "Big Data Q & A" <br> Event: Franklin College LA 112 Course <br> Role: Sole Presenter',
         type: TimelineChart.TYPE.POINT,
-        at: new Date([2018, 5, 2])
+        at: new Date([2018, 4, 16])
         },
         {
         title: 'Title: "Help! I have missing data. How do I fix it (the right way)?" <br> Event: Open Data Science Conference East, Boston, MA <br> Role: Sole Presenter',
@@ -134,7 +134,7 @@ const data = [{
         at: new Date([2018, 5, 2])
         },
         {
-        title: 'Title: "Advanced Data Science, Part 2: I have missing data.... how do I handle it (the right way)?" Handle missing data in 5 ways in Jupyter notebooks." <br> Event: JupyterCon 2018, New York City, NY <br> Role: Sole Presenter',
+        title: 'Title: "Advanced Data Science, Part 2: I have missing data.... how do I handle it (the right way)? Handle missing data in 5 ways in Jupyter notebooks." <br> Event: JupyterCon 2018, New York City, NY <br> Role: Sole Presenter',
         type: TimelineChart.TYPE.POINT,
         at: new Date([2018, 8, 23])
         }]

@@ -24,45 +24,45 @@ const data = [{
         type: TimelineChart.TYPE.INTERVAL,
         from: new Date([2012, 5, 20]),
         to: new Date([2012, 8, 10]),
-        title: 'Undergraduate Researcher'
+        title: 'Employer: Grand Valley State University <br> Title: Undergraduate Researcher'
     },
     {
         label: 'The Ohio State University',
         type: TimelineChart.TYPE.INTERVAL,
         from: new Date([2013, 8, 15]),
         to: new Date([2014, 5, 10]),
-        title: 'Graduate Teaching Associate'
+        title: 'Employer: The Ohio State University <br> Titles: Interim Course Coordinator / Graduate Teaching Associate'
     },
     {
-        label: 'The J.M. Smucker Company',
+        label: 'The J. M. Smucker Company',
         type: TimelineChart.TYPE.INTERVAL,
         from: new Date([2014, 5, 20]),
         to: new Date([2014, 8, 10]),
-        title: 'Enterprise Analytics Intern'
+        title: 'Employer: The J. M. Smucker Company <br> Title: Enterprise Analytics Intern'
     },
     {
         label: 'The Ohio State University',
         type: TimelineChart.TYPE.INTERVAL,
         from: new Date([2014, 8, 20]),
         to: new Date([2015, 5, 15]),
-        title: 'Graduate Teaching Associate'
+        title: 'Employer: The Ohio State University <br> Titles: Lecturer / Graduate Teaching Associate'
     },
     {
         label: '0ptimus Consulting',
         type: TimelineChart.TYPE.INTERVAL,
         from: new Date([2015, 6, 8]),
         to: new Date([2016, 11, 6]),
-        title: 'Junior Data Scientist / Data Science Fellow'
+        title: 'Employer: 0ptimus Consulting <br> Titles: Junior Data Scientist / Data Science Fellow'
     }, {
         label: 'General Assembly',
         type: TimelineChart.TYPE.INTERVAL,
-        from: new Date([2016, 10, 31]),
+        from: new Date([2016, 11, 10]),
         to: new Date(),
-        title: 'Global Lead Data Science Instructor / Lead Data Science Instructor'
+        title: 'Employer: General Assembly <br> Titles: Global Lead Data Science Instructor / Lead Data Science Instructor'
     }]
 },
 {
-    label: 'Talks, etc.',
+    label: 'Presentations',
     data: [{
         title: 'Title: "How Quickly Can We Break Codes? The Rail-Fence Cipher" <br> Event: Pi Mu Epsilon Undergraduate Student Conference, Miami University, Oxford, OH <br> Role: Co-Presenter',
         type: TimelineChart.TYPE.POINT,
@@ -89,7 +89,7 @@ const data = [{
         at: new Date([2015, 3, 30])
         },
         {
-        title: 'Title: "Not “Politics as Usual” - How Data Science Revolutionizes The World of Politics" <br> Event: Data-Driven Insights: How Data is Reshaping Your Industry Conference, The George Washington University <br> Role: Co-presenter',
+        title: 'Title: "Not “Politics as Usual” - How Data Science Revolutionizes The World of Politics" <br> Event: Data-Driven Insights: How Data is Reshaping Your Industry Conference, The George Washington University <br> Role: Co-Presenter',
         type: TimelineChart.TYPE.POINT,
         at: new Date([2015, 12, 15])
         },

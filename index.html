@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics 
+  <!-- Global site tag (gtag.js) - Google Analytics 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116897567-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -18,18 +19,36 @@
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="timeline-chart.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
 
 </head>
+
 <body>
-  <div class="sidenav">
+  <!-- <div class="sidenav">
     <a href="https://twitter.com/matthewbrems"><i class="fab fa-twitter fa-2x"></i></a>
     <a href="https://www.linkedin.com/in/matthewbrems"><i class="fab fa-linkedin fa-2x"></i></a>
     <a href="https://github.com/matthewbrems"><i class="fab fa-github fa-2x"></i></a>
-  </div>  
-  <div class="body">
-    <section class="header" id="myHeader">
-      <h2>
+  </div>   -->
+
+  <!-- ######HEADER####### -->
+  <div class="nav" id="nav">
+
+    <img src="./img/wordmark.png" alt="ArgMatt Wordmark" align="middle" class=logo id="logo">
+    <!-- <section  id="myHeader"> -->
+
+    <div class="nav-description" id="navText">
+      <h1>MATT BREMS</h1>
+      <p>Hot chicken palo santo banjo prism ugh before they sold out flexitarian lumbersexual selfies iceland succulents 90's.
+        Ennui retro slow-carb skateboard lo-fi mustache cold-pressed health goth. Williamsburg poke kombucha, iPhone biodiesel
+        lomo distillery fingerstache yr quinoa bitters pop-up. Meggings la croix vexillologist hot chicken portland vinyl.</p>
+    </div>
+
+
+
+
+    <!-- <h2>
         <a href="#about">About Me</a>
         &bull;
         <a href="#research">Research</a>
@@ -39,70 +58,137 @@
         <a href="#resume">Résumé</a>
         &bull;
         <a href="#contact">Contact Me</a>
-      </h2>  
-      <h2 class="mobile-links">
+      </h2>   -->
+    <!-- <h2 class="mobile-links">
         <a href="https://twitter.com/matthewbrems"><i class="fab fa-twitter fa-2x"></i></a>
         <a href="https://www.linkedin.com/in/matthewbrems"><i class="fab fa-linkedin fa-2x"></i></a>
         <a href="https://github.com/matthewbrems"><i class="fab fa-github fa-2x"></i></a> 
-      </h2>
-    </section>
-    <section id="about">
-      <h2>About Me</h2>
-      <div class="about">
-        <div class="bio">
-        <img src="./img/profile.png" alt="picture of Matt Brems"> I'm Matt Brems and I currently teach data science with <u><a href="https://generalassemb.ly/locations/washington-dc">General Assembly.</a></u> I'm afforded the great opportunity and responsibility to train data scientists across the United States. </p>
+      </h2> -->
+    <!-- </section> -->
+  </div>
 
-          <p>Why am I a data science instructor? </p>
-            <ul>
-            <li> I firmly believe that our world is made better when decisions are informed by data.
+  <div class="nav-container">
+    <ul class="nav-list" id="navList">
+      <li class="nav-items">
+        <a href="#about" class="nav-link">About Me</a>
+      </li>
+      <li class="nav-items">
+        <a href="#research" class="nav-link">Research</a>
+      </li>
+      <li class="nav-items">
+        <a href="#resume" class="nav-link">Résumé</a>
+      </li>
+      <li class="nav-items">
+        <a href="#contact" class="nav-link">Contact Me</a>
+      </li>
+    </ul>
+    <!-- <div class="nav-break"></div> -->
+  </div>
+
+  <!-- ######END OF HEADER####### -->
+  <!-- ######ABOUT ME########## -->
+  <section id="about" class=about-container>
+    <h2>About Me</h2>
+    <div class="about-details">
+      <img src="./img/profile.png" alt="picture of Matt Brems">
+      <div class="details-container">
+        <p>I'm Matt Brems and I currently teach data science with
+          <u>
+            <a href="https://generalassemb.ly/locations/washington-dc">General Assembly.</a>
+          </u> I'm afforded the great opportunity and responsibility to train data scientists across the United States. </p>
+        <h3>Why am I a data science instructor? </h3>
+        <ul>
+          <li> I firmly believe that our world is made better when decisions are informed by data.
             <li> Data science is made better by properly relying on rigorous statistical methods.
-            <li> Rigorous statistical methods are often inaccessible without serious academic training in mathematics.
-            <li> Our world does not reach its full potential if we limit data-driven decision-making to those with serious academic training.
-            </ul>
+              <li> Rigorous statistical methods are often inaccessible without serious academic training in mathematics.
+                <li> Our world does not reach its full potential if we limit data-driven decision-making to those with serious
+                  academic training.
+        </ul>
 
-          <p> I'm particularly passionate about bridging the gap between theoretical statistics and real-world insights. I want to contribute my voice to the chorus of individuals who work tirelessly to make data-driven decision-making accessible, sexy, and fun to all people, not just those who enjoy calculus or who know what a maximum likelihood estimator is. </p>
+        <p> I'm particularly passionate about bridging the gap between theoretical statistics and real-world insights. I want
+          to contribute my voice to the chorus of individuals who work tirelessly to make data-driven decision-making accessible,
+          sexy, and fun to all people, not just those who enjoy calculus or who know what a maximum likelihood estimator
+          is. </p>
 
-          <p> Previously, I did political data work for <u><a href="0ptimus.com">0ptimus Consulting</a></u>, earned my M.S. in statistics from <u><a href="https://stat.osu.edu/">Ohio State</a></u>, and studied math, economics and political science at <u><a href="http://franklincollege.edu/">Franklin College</a></u>. </p>
+        <p> Previously, I did political data work for
+          <u>
+            <a href="0ptimus.com">0ptimus Consulting</a>
+          </u>, earned my M.S. in statistics from
+          <u>
+            <a href="https://stat.osu.edu/">Ohio State</a>
+          </u>, and studied math, economics and political science at
+          <u>
+            <a href="http://franklincollege.edu/">Franklin College</a>
+          </u>. </p>
 
-          <p> Beyond General Assembly, I spend my time buying and partially reading statistics textbooks, overcaffeinating, <u><a href="https://www.netflix.com/watch/70105212?trackId=14170289&tctx=0%2C0%2C03d54e89-c142-4bc5-9cf4-c9903291a6db-39947801%2Ce153eece-7102-492b-97ae-16856acc381c_14053268X3XX1522561190186%2Ce153eece-7102-492b-97ae-16856acc381c_ROOT"> re-watching TV shows</a></u>, or ordering unhealthy delivery food with my boyfriend and our pug. </p>
-        </div>
+        <!-- <p> Beyond General Assembly, I spend my time buying and partially reading statistics textbooks, overcaffeinating, <u><a href="https://www.netflix.com/watch/70105212?trackId=14170289&tctx=0%2C0%2C03d54e89-c142-4bc5-9cf4-c9903291a6db-39947801%2Ce153eece-7102-492b-97ae-16856acc381c_14053268X3XX1522561190186%2Ce153eece-7102-492b-97ae-16856acc381c_ROOT"> re-watching TV shows</a></u>, or ordering unhealthy delivery food with my boyfriend and our pug. </p> -->
       </div>
-    </section>
-    <section id="research">
-      <h2>Research</h2>
-      <p> While I have worked in <u><a href = "https://etd.ohiolink.edu/!etd.send_file?accession=osu1429881892&disposition=inline"> statistical genetics</a></u> and have dabbled in cryptography and discrete topology, I spend most of my time identifying ways to be a better educator. I believe quantitative literacy and statistical savvy are two underrated skills and that the current state of statistical education is exceeded by society's needs.</p>
+    </div>
+  </section>
+
+
+  <section id="research" class="research-container">
+    <h2 class="section-title">Research</h2>
+    <div class="research-details">
+      <p> While I have worked in
+        <u>
+          <a href="https://etd.ohiolink.edu/!etd.send_file?accession=osu1429881892&disposition=inline"> statistical genetics</a>
+        </u> and have dabbled in cryptography and discrete topology, I spend most of my time identifying ways to be a better educator.
+        I believe quantitative literacy and statistical savvy are two underrated skills and that the current state of statistical
+        education is exceeded by society's needs.</p>
 
       <p> To this end, there are some resources I wanted to make available: </p>
       <ul>
-      <li> A list of resources I've found helpful over the years. </li>
-      <li> My current reading list (plus my annotations)! </li>
-      <li> I've personally written about a dozen blog posts attempting to break technical topics down to semi-technical audiences. These topics range from explaining <u><a href="https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c">how principal component analysis works</a></u> to <u><a href="https://towardsdatascience.com/the-new-hot-take-machine-learning-is-racist-1319943cf1fe">how machine learning algorithms aren't racist by themselves</a></u> to <u><a href="https://towardsdatascience.com/people-are-talking-about-reproducibility-crises-and-p-values-and-i-feel-like-i-should-28b5d5fbe70a">the current reproducibility crisis </a></u>. </li>
+        <li> A list of resources I've found helpful over the years. </li>
+        <li> My current reading list (plus my annotations)! </li>
+        <li> I've personally written about a dozen blog posts attempting to break technical topics down to semi-technical audiences.
+          These topics range from explaining
+          <u>
+            <a href="https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c">how principal component analysis works</a>
+          </u> to
+          <u>
+            <a href="https://towardsdatascience.com/the-new-hot-take-machine-learning-is-racist-1319943cf1fe">how machine learning algorithms aren't racist by themselves</a>
+          </u> to
+          <u>
+            <a href="https://towardsdatascience.com/people-are-talking-about-reproducibility-crises-and-p-values-and-i-feel-like-i-should-28b5d5fbe70a">the current reproducibility crisis </a>
+          </u>. </li>
         <ul>
-        <li> Check all of <u><a href=https://medium.com/@matthew.w.brems/>my blog posts out here</u></a>. </li>
+          <li> Check all of
+            <u>
+              <a href=https://medium.com/@matthew.w.brems/>my blog posts out here</u>
+            </a>. </li>
         </ul>
       </ul>
+    </div>
 
-    </section>
-    <section id="resume">
-      <h2>Résumé</h2>
-      <p> Drag, zoom, and play around with the below timeline to get a sense for what I've worked on over the past few years. </p>
-      <div id="chart"></div>
-      <p> Interested in a more formal copy of my background? Find my résumé here and a fuller CV here.
-    </section>
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p> Want to get in touch? Check out my Twitter, LinkedIn, and GitHub, or you can send an email directly to me through the form below. </p>
-      <form method="POST" action="https://formspree.io/matthew.w.brems@gmail.com">
-        <input type="email" name="email" placeholder="Your email">
-        <textarea name="message" placeholder="Your message"></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </div>
+  </section>
+  <section id="resume" class="resume-container">
+    <h2>Résumé</h2>
+    <p> Drag, zoom, and play around with the below timeline to get a sense for what I've worked on over the past few years. </p>
+    <div id="chart"></div>
+    <p> Interested in a more formal copy of my background? Find my résumé here and a fuller CV here.
+  </section>
+
+  <section id="contact" class="contact-container">
+    <h2>Contact Me</h2>
+    <p> Want to get in touch? Check out my Twitter, LinkedIn, and GitHub, or you can send an email directly to me through the
+      form below. </p>
+    <form method="POST" action="https://formspree.io/matthew.w.brems@gmail.com">
+      <input type="email" name="email" placeholder="Your email">
+      <textarea name="message" placeholder="Your message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+
   <script src="https://d3js.org/d3.v3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="sticky.js"></script>
   <script src="timeline-chart.js"></script>
   <script src="events.js"></script>
-  <script src="sticky.js"></script>
+
+  <!-- <script src="sticky.js"></script> -->
 </body>
+
 </html>
